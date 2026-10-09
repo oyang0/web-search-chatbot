@@ -38,7 +38,7 @@ else:
                         text={"verbosity": "high"},
                         temperature=0,
                         max_output_tokens=32768,
-                        tool=[{"type": "web_search"}],
+                        tools=[{"type": "web_search"}],
                         tool_choice="required",
                         service_tier="flex",
                 )

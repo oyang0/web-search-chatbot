@@ -39,7 +39,7 @@ else:
                         temperature=0,
                         max_output_tokens=32768,
                         tools=[{"type": "web_search"}],
-                        include=["web_search_call.action.sources"],
+                        search_context_size: "high",
                         tool_choice="required",
                         service_tier="flex",
                 )
